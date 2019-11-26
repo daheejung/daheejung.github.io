@@ -1,9 +1,14 @@
 $cute-green: #c6e096;
 $cute-red: #e17e66;
 $cute-white: #fcfbfb;
+$kr: 'Nanum Gothic Coding', monospace;
 
 body{
   background: $cute-white;
+}
+
+.kr{
+  font-family: $kr;
 }
 
 .green{

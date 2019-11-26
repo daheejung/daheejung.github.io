@@ -2,6 +2,10 @@ body {
   background: #fcfbfb;
 }
 
+.kr {
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
 .green {
   color: #c6e096;
 }
