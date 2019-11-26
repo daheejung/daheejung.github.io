@@ -2,6 +2,14 @@ body {
   background: #fcfbfb;
 }
 
+p {
+  font-family: "Yantramanav", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
 .kr {
   font-family: "Nanum Gothic Coding", monospace;
 }
@@ -12,6 +20,31 @@ body {
 
 .red {
   color: #e17e66;
+}
+
+.languageToggleDiv {
+  position: absolute;
+  right: 0;
+}
+
+.languageOption {
+  cursor: pointer;
+}
+
+.koreanToggle {
+  font-family: "Nanum Gothic Coding", monospace;
+  border-radius: 25px;
+  transition: border 0.5s ease;
+  border: 2px solid #646564;
+}
+
+#krFlagDiv {
+  height: 16px;
+  width: 16px;
+  padding: 10px;
+  position: relative;
+  bottom: 5px;
+  left: 0px;
 }
 
 #name {
@@ -79,10 +112,6 @@ body {
 #highlightVideoDiv video {
   width: 100%;
   max-width: 500px;
-}
-
-p {
-  font-family: "Yantramanav", sans-serif;
 }
 
 @media (max-width: 501px) {

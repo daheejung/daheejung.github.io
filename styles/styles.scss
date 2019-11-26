@@ -2,11 +2,17 @@ $cute-green: #c6e096;
 $cute-red: #e17e66;
 $cute-white: #fcfbfb;
 $kr: 'Nanum Gothic Coding', monospace;
+$thinFont: 'Yantramanav', sans-serif;
 
 body{
   background: $cute-white;
 }
-
+p{
+  font-family: $thinFont;
+}
+.hide{
+  display: none;
+}
 .kr{
   font-family: $kr;
 }
@@ -17,6 +23,34 @@ body{
 .red{
   color: $cute-red;
 }
+
+// LANGUAGE CONTROLS
+.languageToggleDiv{
+  position: absolute;
+  right: 0;
+}
+.languageOption{
+  // display: inline;
+  cursor: pointer;
+}
+.koreanToggle{
+  font-family: $kr;
+  border-radius: 25px;
+  transition: border 0.5s ease;
+  border: 2px solid #646564;
+}
+#krFlagDiv{
+  height: 16px;
+  width: 16px;
+  padding: 10px;
+  position: relative;
+  bottom: 5px;
+  left: 0px;
+}
+// .englishToggle{
+//   font-family: $thinFont;
+// }
+//END LANGUAGE CONTROLS
 
 .header{
   // text-align: center;
@@ -31,7 +65,7 @@ body{
 }
 #headerSpan{
   font-size: 24px;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: $thinFont;
   font-weight: 100;
 }
 
@@ -41,7 +75,7 @@ body{
 
 }
 .nav{
-  font-family: 'Yantramanav', sans-serif;
+  font-family: $thinFont;
 
 }
 
@@ -88,13 +122,6 @@ body{
 #highlightVideoDiv video{
   width: 100%;
   max-width: 500px;
-}
-
-
-
-p{
-  font-family: 'Yantramanav', sans-serif;
-
 }
 
 @media(max-width:501px){
