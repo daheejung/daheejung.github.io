@@ -39,4 +39,4 @@ const koreanDisplayToggler = ()=>{
 document.querySelector("#koreanToggle").addEventListener("click", ()=>{
   koreanOn ? koreanOn = false : koreanOn = true;
   koreanDisplayToggler()
-})
+});
